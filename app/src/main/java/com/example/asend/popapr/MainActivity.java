@@ -25,14 +25,7 @@ public class MainActivity extends Activity {
         b1 = (Button)findViewById(R.id.button);
         ed1 = (EditText)findViewById(R.id.editText);
         ed2 = (EditText)findViewById(R.id.editText2);
-
         b2 = (Button)findViewById(R.id.button2);
-
-        /*b1.setOnClickListener(new View.OnClickListener() {
-            @Override*/
-
-       // });
-
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -43,8 +36,6 @@ public class MainActivity extends Activity {
     public void Go(View v) {
         if(ed1.getText().toString().equals("admin") &&
                 ed2.getText().toString().equals("admin")) {
-            /*Toast.makeText(getApplicationContext(),
-                    "Redirecting...",Toast.LENGTH_SHORT).show();*/
             //on creer une nouvelle intent on definit la class de depart ici this et la class d'arrivé ici UserList
             Intent intent=new Intent(this,UserList.class);
             //intent.putExtra("prenom", ed1.getText().toString());

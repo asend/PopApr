@@ -25,7 +25,7 @@ public class UserList extends Activity {
         mListView = (ListView) findViewById(R.id.listView);
 
         //android.R.layout.simple_list_item_1 est une vue disponible de base dans le SDK android,
-        //Contenant une TextView avec comme identifiant "@android:id/text1"
+        //Contenant une TextView avec comme identifiant "@android:id/listView"
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(UserList.this,
                 android.R.layout.simple_list_item_1, prenoms);

@@ -16,14 +16,6 @@
         android:layout_alignParentTop = "true"
         android:layout_centerHorizontal = "true" />
 
-
-    <!--ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView"
-        android:layout_centerHorizontal="true"
-        android:background="#AAA"/-->
-
     <EditText
         android:layout_width = "wrap_content"
         android:layout_height = "wrap_content"
@@ -52,29 +44,6 @@
         android:layout_alignEnd="@+id/editText"
         android:textColorHint="#ffff299f"
         android:hint="Password" />
-
-    <!--TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Attempts Left:"
-        android:id="@+id/textView2"
-        android:layout_below="@+id/editText2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:textSize="25dp" /-->
-
-    <!--TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Text"
-        android:id="@+id/textView3"
-        android:layout_alignTop="@+id/textView2"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignBottom="@+id/textView2"
-        android:layout_toEndOf="@+id/textview"
-        android:textSize="25dp"
-        android:layout_toRightOf="@+id/textview" /-->
 
     <Button
         android:layout_width="wrap_content"
